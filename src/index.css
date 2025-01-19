@@ -15,6 +15,23 @@
   }
 }
 
+
+.poem::-webkit-scrollbar {
+  @apply h-1 w-full;
+}
+
+.poem::-webkit-scrollbar {
+  @apply w-0.5 md:w-1.5;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-200;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-dark rounded-full;
+}
+
 /* 
 body.dark-theme .nav-dashboard {
   background: #322F3D;

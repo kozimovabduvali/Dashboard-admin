@@ -9,10 +9,10 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="flex dark:">
+    <div className="flex">
       <Navbar />
-      <div className="w-full">
-        <div className="bg-gray-2 h-[8.125rem] w-full sticky top-0 z-50 border-b">
+      <div className="bg-gray-2 w-full h-full min-h-screen lg:pl-[6.25rem]">
+        <div className="bg-gray-2 lg:h-[8.125rem] w-full sticky top-0 z-50 border-b border-dark/50">
           <Header />
         </div>
         <Routes>

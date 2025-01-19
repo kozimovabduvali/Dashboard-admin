@@ -96,7 +96,7 @@ function Navbar() {
   return (
     <header>
       {/* Left */}
-      <nav className="fixed lg:sticky top-0 left-0 z-50 bg-dark text-white min-h-screen w-[6.25rem] px-5 flex flex-col">
+      <nav className="fixed top-0 -left-full lg:left-0 z-[60] bg-dark text-white min-h-screen w-[6.25rem] px-5 flex flex-col">
         <div className="flex justify-center items-center h-[8.125rem]">
           <Link to="/">
             <img className="h-5 shrink-0" src={Logo} alt="logo" />
