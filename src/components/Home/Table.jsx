@@ -4,8 +4,8 @@ import IconSound from "../../assets/svg/sound.svg";
 function Table() {
   return (
     <>
-      <div className="bg-white rounded-sm border border-dark/50 overflow-x-auto">
-        <div className="flex items-center gap-2.5 px-5 py-4 lg:py-6 border-b border-dark/50">
+      <div className="bg-white rounded-sm border  overflow-x-auto">
+        <div className="flex items-center gap-2.5 px-5 py-4 lg:py-6 border-b ">
           <img src={IconSound} alt="IconSound" />
           <p className="font-bold text-[0.9375rem]/[1.1344rem] text-black">
             Ergebnisse Kampagne (aufgesplittet)

@@ -1,6 +1,7 @@
 import Grid from "../components/Home/Grid";
 import Grid2 from "../components/Home/Grid2";
 import Table from "../components/Home/Table";
+import Table2 from "../components/Home/Table2";
 
 function Home() {
   return (
@@ -12,6 +13,9 @@ function Home() {
         </div>
         <div className="pt-8 lg:pt-[3.125rem]">
           <Grid2 />
+        </div>
+        <div className="pt-8 lg:pt-[3.125rem]">
+          <Table2 />
         </div>
       </div>
     </div>

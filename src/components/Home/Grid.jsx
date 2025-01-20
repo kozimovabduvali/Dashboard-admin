@@ -7,7 +7,7 @@ function Grid() {
     <>
       <div className="grid md:grid-cols-2 gap-y-4 gap-x-4 lg:gap-x-7 2xl:gap-x-[3.125rem]">
         {/* 1 */}
-        <div className="bg-white rounded-sm overflow-hidden border-[0.0187rem] border-dark/50 p-4">
+        <div className="bg-white rounded-sm overflow-hidden border-[0.0187rem]  p-4">
           <div className="flex items-center gap-3.5 pb-4 lg:pb-6">
             <img src={IconContact} alt="IconContact" />
             <p className="font-bold text-[0.9375rem]/[1.1344rem] text-black">
@@ -25,7 +25,7 @@ function Grid() {
           </button>
         </div>
         {/* 2 */}
-        <div className="relative bg-white rounded-sm overflow-hidden border-[0.0187rem] border-dark/50 p-4">
+        <div className="relative bg-white rounded-sm overflow-hidden border-[0.0187rem]  p-4">
           <div className="relative z-10">
             <div className="flex items-center gap-3.5 pb-4 lg:pb-6">
               <img src={IconContact2} alt="IconContact" />

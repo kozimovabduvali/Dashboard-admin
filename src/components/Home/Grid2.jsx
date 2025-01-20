@@ -6,7 +6,7 @@ function Grid2() {
   return (
     <div className="grid md:grid-cols-2 2xl:grid-cols-4 gap-y-4 gap-x-4 lg:gap-x-7 2xl:gap-x-[3.125rem]">
       {/* 1 */}
-      <div className="bg-white rounded-sm overflow-hidden border-[0.0187rem] border-dark/50 p-4 lg:p-5 2xl:pr-7">
+      <div className="bg-white rounded-sm overflow-hidden border-[0.0187rem]  p-4 lg:p-5 2xl:pr-7">
         <div className="flex items-center gap-3.5">
           <img src={IconChart} alt="IconChart" />
           <h5 className="font-bold text-[0.9375rem]/[1.1344rem] text-black">
@@ -27,7 +27,7 @@ function Grid2() {
         </div>
       </div>
       {/* 2 */}
-      <div className="bg-white rounded-sm overflow-hidden border-[0.0187rem] border-dark/50 p-4 lg:p-5 2xl:pr-7">
+      <div className="bg-white rounded-sm overflow-hidden border-[0.0187rem]  p-4 lg:p-5 2xl:pr-7">
         <div className="flex items-center gap-3.5">
           <img src={IconChart} alt="IconChart" />
           <h5 className="font-bold text-[0.9375rem]/[1.1344rem] text-black">
@@ -48,7 +48,7 @@ function Grid2() {
         </div>
       </div>
       {/* 3 */}
-      <div className="bg-white rounded-sm overflow-hidden border-[0.0187rem] border-dark/50 p-4 lg:p-5 2xl:pr-7">
+      <div className="bg-white rounded-sm overflow-hidden border-[0.0187rem]  p-4 lg:p-5 2xl:pr-7">
         <div className="flex items-center gap-3.5">
           <img src={IconChart} alt="IconChart" />
           <h5 className="font-bold text-[0.9375rem]/[1.1344rem] text-black">
@@ -69,7 +69,7 @@ function Grid2() {
         </div>
       </div>
       {/* 4 */}
-      <div className="bg-white rounded-sm overflow-hidden border-[0.0187rem] border-dark/50 p-4 lg:p-5 2xl:pr-7">
+      <div className="bg-white rounded-sm overflow-hidden border-[0.0187rem]  p-4 lg:p-5 2xl:pr-7">
         <div className="flex items-center gap-3.5">
           <img src={IconChart} alt="IconChart" />
           <h5 className="font-bold text-[0.9375rem]/[1.1344rem] text-black">

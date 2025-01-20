@@ -102,7 +102,7 @@ function Navbar() {
             <img className="h-5 shrink-0" src={Logo} alt="logo" />
           </Link>
         </div>
-        <div className="flex flex-col items-center gap-y-12 pt-7">
+        <div className="flex flex-col items-center gap-y-12 pt-[3.125rem]">
           {navItems.map((item, index) => (
             <Link to={item.path} key={index}>
               <div
