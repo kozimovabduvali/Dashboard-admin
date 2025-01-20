@@ -142,7 +142,7 @@ function Table2() {
               </tr>
             </tbody>
           </table>
-          <img className="min-w-[43.75rem]" src={ImgTable} alt="ImgTable" />
+          <img className="min-w-[28.125rem] lg:min-w-[43.75rem]" src={ImgTable} alt="ImgTable" />
         </div>
       </div>
     </>
