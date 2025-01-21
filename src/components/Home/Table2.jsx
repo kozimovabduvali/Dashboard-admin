@@ -7,7 +7,7 @@ import ImgTable from "../../assets/img/table.png";
 function Table2() {
   return (
     <>
-      <div className="bg-white rounded-sm border  overflow-x-auto">
+      <div className="bg-white rounded-sm border mb-5">
         <div className="flex items-center justify-between gap-2.5 px-5 py-4 lg:py-6 border-b ">
           <div className="flex items-center gap-2.5">
             <img src={IconMenu} alt="IconSound" />
