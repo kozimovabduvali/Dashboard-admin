@@ -8,6 +8,6 @@ function Location() {
       </div>
     </div>
   )
-}
+} 
 
-export default Location
+export default Location 
