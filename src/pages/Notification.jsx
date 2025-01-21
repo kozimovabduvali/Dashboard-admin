@@ -112,27 +112,27 @@ const Table = () => {
               {currentData.map((item, index) => (
                 <tr
                   key={index}
-                  className="border-b last:border-none py-2"
+                  className="border-b last:border-none py-2 lg:py-4"
                 >
-                  <td className="px-4 py-2 font-bold text-black flex items-center gap-2">
+                  <td className="px-4 py-2 lg:py-4 font-bold text-black flex items-center gap-2">
                     <div className="shrink-0 size-6 lg:size-[1.875rem] rounded-full border-[0.0187rem]"></div>
 
                     {item.kampagnenname}
                   </td>
-                  <td className="px-4 py-2">{item.standorte}</td>
-                  <td className="px-4 py-2 flex items-center gap-1">
+                  <td className="px-4 py-2 lg:py-4">{item.standorte}</td>
+                  <td className="px-4 py-2 lg:py-4 flex items-center gap-1">
                     {item.start}
                   </td>
-                  <td className="px-4 py-2">{item.ende}</td>
-                  <td className="px-4 py-2">{item.erstellt}</td>
-                  <td className="px-4 py-2 flex items-center gap-2">
+                  <td className="px-4 py-2 lg:py-4">{item.ende}</td>
+                  <td className="px-4 py-2 lg:py-4">{item.erstellt}</td>
+                  <td className="px-4 py-2 lg:py-4 flex items-center gap-2">
                     {item.status === "Aktiv" && <img src={activ} />}
                     {item.status === "In Vorbereitung" && <img src={beendet} />}
                     {item.status === "Beendet" && <img src={vorbes} />}
                     <span>{item.status}</span>
                   </td>
-                  <td className="px-4 py-2">{item.report}</td>
-                  <td className="px-4 py-2 text-right relative">
+                  <td className="px-4 py-2 lg:py-4">{item.report}</td>
+                  <td className="px-4 py-2 lg:py-4 text-right relative">
                     <FaEllipsisV
                       className="text-gray-500 cursor-pointer"
                       onClick={() => handleDropdownToggle(index)}
