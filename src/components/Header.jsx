@@ -109,7 +109,7 @@ function Header() {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <header>
+    <header className="h-full">
       <div className="max-w-base w-full h-full flex items-center justify-between mx-auto px-4 lg:px-5 py-2.5 lg:py-4">
         {/* Logo */}
         <div className="flex items-center gap-2 cursor-pointer">
