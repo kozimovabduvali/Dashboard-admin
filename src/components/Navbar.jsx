@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../assets/svg/logo.svg";
+import IconLogout from "../assets/svg/logout.svg";
 
 const navItems = [
   {
@@ -96,25 +97,30 @@ function Navbar() {
   return (
     <header>
       {/* Left */}
-      <nav className="fixed top-0 -left-full lg:left-0 z-[60] bg-dark text-white min-h-screen w-[6.25rem] px-5 flex flex-col">
-        <div className="flex justify-center items-center h-[8.125rem]">
-          <Link to="/">
-            <img className="h-5 shrink-0" src={Logo} alt="logo" />
-          </Link>
-        </div>
-        <div className="flex flex-col items-center gap-y-12 pt-[3.125rem]">
-          {navItems.map((item, index) => (
-            <Link to={item.path} key={index}>
-              <div
-                className={`p-2.5 size-11 flex items-center justify-center shrink-0 rounded-full ${
-                  isActive(item.path) ? "bg-white text-dark" : "text-white"
-                }`}
-              >
-                {item.icon}
-              </div>
+      <nav className="fixed top-0 -left-full lg:left-0 z-[60] bg-dark text-white min-h-screen w-[6.25rem] flex flex-col gap-5 items-center justify-between px-5">
+        <div className="flex flex-col">
+          <div className="flex justify-center items-center h-[8.125rem]">
+            <Link to="/">
+              <img className="h-5 shrink-0" src={Logo} alt="logo" />
             </Link>
-          ))}
+          </div>
+          <div className="flex flex-col items-center gap-y-12 pt-[3.125rem]">
+            {navItems.map((item, index) => (
+              <Link to={item.path} key={index}>
+                <div
+                  className={`p-2.5 size-11 flex items-center justify-center shrink-0 rounded-full ${
+                    isActive(item.path) ? "bg-white text-dark" : "text-white"
+                  }`}
+                >
+                  {item.icon}
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
+        <button className="mb-6 lg:mb-10 pt-9 border-t border-[#59516E]">
+          <img className="size-7" src={IconLogout} alt="IconLogout" />
+        </button>
       </nav>
     </header>
   );
