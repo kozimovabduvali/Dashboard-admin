@@ -43,8 +43,8 @@ function Grid() {
               </span>
             </button>
           </div>
-          <div className="absolute top-1/2 z-0 -translate-y-1/2 right-0 w-36 2xl:w-[12.1875rem] h-64 bg-red-4 rounded-l-full flex items-center justify-center">
-            <h3 className="font-space-grotesk font-bold text-2xl lg:text-4xl  2xl:text-[3.125rem]/[3.9875rem] text-white">
+          <div className="absolute bottom-0 2xl:top-1/2 z-0 2xl:-translate-y-1/2 right-0 w-36 2xl:w-[12.1875rem] 2xl:h-64 bg-red-4 rounded-l-none rounded-t-3xl rounded-b-none rounded-r-none py-2 2xl:rounded-l-full flex items-center justify-center">
+            <h3 className="font-space-grotesk font-bold text-2xl lg:text-4xl 2xl:text-[3.125rem]/[3.9875rem] text-white">
               -32,9
             </h3>
           </div>
